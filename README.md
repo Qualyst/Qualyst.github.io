@@ -22,3 +22,10 @@ https://<사용자명>.github.io/sudoku-mini/privacy.html      ← 1호 방침
 `<게임-이름>/privacy.html` 폴더를 하나 더 만들고 `index.html` 에 링크를
 추가한다. 방침 본문은 `sudoku-mini/privacy.html` 을 복사해 수집 항목표만
 그 게임에 맞게 고치면 된다.
+
+## app-ads.txt
+
+루트의 `app-ads.txt` 는 "이 앱들의 광고 수익은 이 AdMob 게시자의 것"이라는
+선언이다 (광고 사기 방지). **두 스토어 등록 정보의 '개발자 웹사이트'를
+이 사이트 도메인으로 적어야** 구글이 이 파일을 찾아간다. 배포 후 AdMob
+콘솔 → 앱 → app-ads.txt 에서 크롤링 상태를 확인할 것 (반영에 며칠 걸림).
