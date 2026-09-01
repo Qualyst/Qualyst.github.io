@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Sudoku Mini</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1b2430; --muted: #5b6675;
+    --line: #e3e8ef; --accent: #2f6bd8; --card: #f6f8fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #11141a; --fg: #e9edf3; --muted: #97a1b0;
+      --line: #262d38; --accent: #7baef5; --card: #1a1e26;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0 20px 80px;
+    background: var(--bg); color: var(--fg);
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI",
+          "Noto Sans KR", Roboto, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  header { padding: 48px 0 8px; border-bottom: 1px solid var(--line); }
+  h1 { font-size: 28px; margin: 0 0 6px; letter-spacing: -0.3px; }
+  h2 {
+    font-size: 20px; margin: 40px 0 10px;
+    padding-top: 20px; border-top: 1px solid var(--line);
+  }
+  h3 { font-size: 16px; margin: 24px 0 6px; }
+  p, li { color: var(--fg); }
+  .meta { color: var(--muted); font-size: 14px; margin: 0; }
+  .lang { margin: 20px 0 0; font-size: 15px; }
+  .lang a { color: var(--accent); text-decoration: none; margin-right: 14px; }
+  .lang a:hover { text-decoration: underline; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  code {
+    background: var(--card); padding: 2px 6px; border-radius: 5px;
+    font-size: 14px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+  .card {
+    background: var(--card); border-radius: 12px;
+    padding: 16px 20px; margin: 18px 0;
+  }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 56px; padding-top: 20px;
+    border-top: 1px solid var(--line); color: var(--muted); font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Sudoku Mini · Effective 1 September 2026</p>
+  <p class="lang"><a href="#en">English</a><a href="#ko">한국어</a></p>
+</header>
+
+<!-- ─────────────────────────── ENGLISH ─────────────────────────── -->
+<h2 id="en">English</h2>
+
+<div class="card">
+  <strong>The short version.</strong> Sudoku Mini has no accounts and no login.
+  Your puzzles, settings and statistics stay on your device. The app shows ads
+  and records anonymous usage statistics, and you can turn those statistics off
+  in Settings. Nothing is ever sold.
+</div>
+
+<h3>1. Who we are</h3>
+<p>
+  Sudoku Mini ("the app") is an independently developed mobile game. For any
+  question about this policy, write to
+  <a href="mailto:aimsamc25@gmail.com">aimsamc25@gmail.com</a>.
+</p>
+
+<h3>2. Data stored on your device only</h3>
+<p>
+  The following never leaves your phone. It is not transmitted to us or anyone
+  else, and it is deleted when you uninstall the app:
+</p>
+<ul>
+  <li>Your current puzzle and its progress</li>
+  <li>Settings (theme, language, vibration, highlighting, timer)</li>
+  <li>Statistics: games played and solved, best and average times, daily streak</li>
+  <li>Whether you purchased "Remove ads"</li>
+</ul>
+
+<h3>3. Advertising — Google AdMob</h3>
+<p>
+  The app shows ads through Google AdMob. To serve, measure and prevent fraud in
+  advertising, Google may collect and process device identifiers (such as the
+  advertising ID), approximate location derived from IP address, device and OS
+  information, and interactions with ads. We never receive your personal data
+  from Google — only aggregate revenue reports.
+</p>
+<p>
+  How Google uses this data is described in
+  <a href="https://policies.google.com/technologies/partner-sites">
+  How Google uses information from sites or apps that use our services</a>.
+</p>
+<p>
+  Ads are removed entirely if you purchase "Remove ads". You can also limit ad
+  personalisation from your device settings:
+</p>
+<ul>
+  <li><strong>Android:</strong> Settings → Google → Ads → Delete advertising ID</li>
+  <li><strong>iOS:</strong> Settings → Privacy &amp; Security → Tracking</li>
+</ul>
+
+<h3>4. Analytics — Google Firebase Analytics</h3>
+<p>
+  To understand which puzzles are too hard and where people stop playing, the
+  app records anonymous events. These events contain no name, e-mail address,
+  phone number, or any information that identifies you personally.
+</p>
+<table>
+  <tr><th>Event</th><th>What it records</th></tr>
+  <tr><td><code>game_started</code></td><td>Board size and difficulty</td></tr>
+  <tr><td><code>game_won</code></td><td>Difficulty, time taken, mistakes, hints used</td></tr>
+  <tr><td><code>game_abandoned</code></td><td>Difficulty, time played, cells filled</td></tr>
+  <tr><td><code>game_failed</code></td><td>Difficulty</td></tr>
+  <tr><td><code>ad_shown</code> / <code>ad_declined</code></td><td>Ad type and where it appeared</td></tr>
+  <tr><td><code>daily_completed</code></td><td>Daily-puzzle streak length</td></tr>
+  <tr><td><code>purchase_completed</code></td><td>That "Remove ads" was purchased</td></tr>
+</table>
+<p>
+  Firebase additionally collects standard technical information such as app
+  version, device model, operating system, country and language.
+</p>
+<p>
+  <strong>You can switch this off.</strong> Open
+  <em>Settings → Privacy → Share anonymous usage data</em> and turn it off.
+  Collection stops immediately.
+</p>
+
+<h3>5. Purchases</h3>
+<p>
+  "Remove ads" is processed entirely by Apple's App Store or Google Play. We
+  never see or store your payment details. We only receive confirmation from the
+  store that the purchase succeeded.
+</p>
+
+<h3>6. Children</h3>
+<p>
+  The app is not directed at children under 13 and we do not knowingly collect
+  personal information from them. If you believe a child has provided personal
+  information, contact us and we will address it.
+</p>
+
+<h3>7. Your rights</h3>
+<p>
+  Depending on where you live (for example under the GDPR in the European
+  Economic Area or the CCPA in California) you may have the right to access,
+  correct, delete, or restrict processing of your personal data, and to object
+  to it. Because the app holds no account and stores your game data only on your
+  device, you can exercise most of these rights directly:
+</p>
+<ul>
+  <li>Turn off analytics in Settings</li>
+  <li>Reset or delete your advertising ID in your device settings</li>
+  <li>Uninstall the app to delete all locally stored data</li>
+</ul>
+<p>
+  For anything else, write to
+  <a href="mailto:aimsamc25@gmail.com">aimsamc25@gmail.com</a> and we will
+  respond within 30 days.
+</p>
+
+<h3>8. Changes</h3>
+<p>
+  If this policy changes materially, the updated version will be published on
+  this page with a new effective date.
+</p>
+
+<!-- ─────────────────────────── 한국어 ─────────────────────────── -->
+<h2 id="ko">한국어</h2>
+
+<div class="card">
+  <strong>요약.</strong> 스도쿠 미니는 회원가입도 로그인도 없습니다. 퍼즐과 설정,
+  기록은 기기 안에만 저장됩니다. 앱은 광고를 표시하고 익명 사용 통계를
+  기록하며, 통계 수집은 설정에서 끌 수 있습니다. 어떤 정보도 판매하지 않습니다.
+</div>
+
+<h3>1. 운영자</h3>
+<p>
+  스도쿠 미니(이하 "앱")는 개인 개발자가 만든 모바일 게임입니다. 이 방침에 대한
+  문의는 <a href="mailto:aimsamc25@gmail.com">aimsamc25@gmail.com</a> 으로
+  보내주세요.
+</p>
+
+<h3>2. 기기에만 저장되는 정보</h3>
+<p>
+  아래 정보는 기기를 떠나지 않습니다. 개발자를 포함한 누구에게도 전송되지 않으며
+  앱을 삭제하면 함께 사라집니다.
+</p>
+<ul>
+  <li>진행 중인 퍼즐과 진행 상황</li>
+  <li>설정 (테마, 언어, 진동, 강조 표시, 타이머)</li>
+  <li>기록: 플레이·완료 판 수, 최고 기록과 평균 시간, 연속 기록</li>
+  <li>"광고 제거" 구매 여부</li>
+</ul>
+
+<h3>3. 광고 — Google AdMob</h3>
+<p>
+  앱은 Google AdMob 을 통해 광고를 표시합니다. Google 은 광고 게재·측정·부정
+  방지를 위해 광고 ID 같은 기기 식별자, IP 주소에서 추정한 대략적 위치, 기기 및
+  운영체제 정보, 광고 상호작용 기록을 수집·처리할 수 있습니다. 개발자는 Google
+  로부터 이용자의 개인정보를 전달받지 않으며 집계된 수익 보고서만 받습니다.
+</p>
+<p>
+  Google 의 데이터 이용 방식은
+  <a href="https://policies.google.com/technologies/partner-sites">Google 서비스를
+  사용하는 사이트나 앱에서 수집한 정보를 Google 이 이용하는 방법</a>에
+  설명되어 있습니다.
+</p>
+<p>"광고 제거"를 구매하면 광고가 완전히 사라집니다. 기기 설정에서 광고 개인화를 제한할 수도 있습니다.</p>
+<ul>
+  <li><strong>Android:</strong> 설정 → Google → 광고 → 광고 ID 삭제</li>
+  <li><strong>iOS:</strong> 설정 → 개인정보 보호 및 보안 → 추적</li>
+</ul>
+
+<h3>4. 사용 통계 — Google Firebase Analytics</h3>
+<p>
+  어떤 난이도가 지나치게 어려운지, 사람들이 어디서 그만두는지 파악하기 위해
+  익명 이벤트를 기록합니다. 이 이벤트에는 이름, 이메일, 전화번호 등 개인을
+  식별할 수 있는 정보가 포함되지 않습니다.
+</p>
+<table>
+  <tr><th>이벤트</th><th>기록 내용</th></tr>
+  <tr><td><code>game_started</code></td><td>보드 크기와 난이도</td></tr>
+  <tr><td><code>game_won</code></td><td>난이도, 소요 시간, 실수 횟수, 힌트 사용 수</td></tr>
+  <tr><td><code>game_abandoned</code></td><td>난이도, 플레이 시간, 채운 칸 수</td></tr>
+  <tr><td><code>game_failed</code></td><td>난이도</td></tr>
+  <tr><td><code>ad_shown</code> / <code>ad_declined</code></td><td>광고 종류와 노출 위치</td></tr>
+  <tr><td><code>daily_completed</code></td><td>오늘의 퍼즐 연속 기록 일수</td></tr>
+  <tr><td><code>purchase_completed</code></td><td>"광고 제거" 구매 발생</td></tr>
+</table>
+<p>
+  이와 별도로 Firebase 는 앱 버전, 기기 모델, 운영체제, 국가, 언어 같은 일반적인
+  기술 정보를 함께 수집합니다.
+</p>
+<p>
+  <strong>끌 수 있습니다.</strong>
+  <em>설정 → 개인정보 → 익명 사용 통계 공유</em> 를 끄면 수집이 즉시 중단됩니다.
+</p>
+
+<h3>5. 결제</h3>
+<p>
+  "광고 제거" 결제는 전적으로 Apple App Store 또는 Google Play 가 처리합니다.
+  개발자는 결제 수단 정보를 보거나 저장하지 않으며, 스토어로부터 구매 성공
+  여부만 전달받습니다.
+</p>
+
+<h3>6. 아동</h3>
+<p>
+  앱은 만 13세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 고의로
+  수집하지 않습니다. 아동이 개인정보를 제공했다고 판단되면 위 이메일로 알려주시기
+  바랍니다.
+</p>
+
+<h3>7. 이용자의 권리</h3>
+<p>
+  거주 지역에 따라(예: 유럽경제지역의 GDPR, 캘리포니아의 CCPA, 대한민국
+  개인정보 보호법) 개인정보의 열람·정정·삭제·처리정지를 요구할 권리가 있습니다.
+  앱은 계정이 없고 게임 데이터를 기기에만 저장하므로 대부분의 권리를 직접 행사할
+  수 있습니다.
+</p>
+<ul>
+  <li>설정에서 사용 통계 수집 끄기</li>
+  <li>기기 설정에서 광고 ID 재설정 또는 삭제</li>
+  <li>앱 삭제 — 기기에 저장된 모든 데이터가 함께 삭제됩니다</li>
+</ul>
+<p>
+  그 밖의 요청은
+  <a href="mailto:aimsamc25@gmail.com">aimsamc25@gmail.com</a> 으로 보내주시면
+  30일 이내에 답변드립니다.
+</p>
+
+<h3>8. 변경</h3>
+<p>
+  이 방침이 중요하게 변경되면 새로운 시행일과 함께 이 페이지에 게시합니다.
+</p>
+
+<footer>
+  Sudoku Mini · lil_q Game Lab · aimsamc25@gmail.com
+</footer>
+
+</main>
+</body>
+</html>
