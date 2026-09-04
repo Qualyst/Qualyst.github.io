@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sudoku Mini — Clean Sudoku, No Ads While You Play</title>
+<meta name="description" content="A clean sudoku app. Ads never interrupt your puzzle. 4x4 to 9x9, daily puzzle, dark mode, 14 languages, no sign-up.">
+<meta property="og:title" content="Sudoku Mini — Clean Sudoku">
+<meta property="og:description" content="No ads while you solve. 4x4–9x9 boards, daily puzzle, dark mode, offline, no sign-up.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://qualyst.github.io/sudoku-mini/">
+<style>
+  :root { --bg:#fff; --fg:#1b2430; --muted:#5b6675; --accent:#2f6bd8; --card:#f4f6fa; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#11141a; --fg:#e9edf3; --muted:#97a1b0; --accent:#7baef5; --card:#1a1f28; }
+  }
+  body {
+    margin:0; background:var(--bg); color:var(--fg);
+    font:16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI",
+         "Noto Sans KR", Roboto, sans-serif;
+  }
+  main { max-width:640px; margin:0 auto; padding:48px 20px 64px; }
+  h1 { font-size:30px; margin:0 0 4px; }
+  .tagline { color:var(--muted); margin:0 0 28px; font-size:18px; }
+  h2 { font-size:20px; margin:36px 0 10px; }
+  ul { padding-left:20px; }
+  li { margin:6px 0; }
+  a { color:var(--accent); }
+  .cta {
+    display:inline-block; background:var(--accent); color:#fff; text-decoration:none;
+    padding:12px 22px; border-radius:10px; font-weight:600; margin:6px 8px 6px 0;
+  }
+  .cta.secondary { background:var(--card); color:var(--fg); }
+  .note { background:var(--card); border-radius:12px; padding:14px 18px; color:var(--muted); font-size:14px; }
+  .video { position:relative; padding-top:120%; max-width:360px; margin:20px 0; }
+  .video iframe {
+    position:absolute; inset:0; width:100%; height:100%; border:0; border-radius:12px;
+  }
+  footer { margin-top:48px; font-size:14px; color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Sudoku Mini</h1>
+  <p class="tagline">A clean sudoku. <strong>No ads while you play.</strong></p>
+
+  <p>Sudoku Mini is built around one promise: ads never interrupt your puzzle.
+  Interstitials appear only after you finish a board — and a single Remove Ads
+  purchase removes them forever.</p>
+
+  <div class="video">
+    <iframe src="https://www.youtube.com/embed/HZ0YMQwfL3Y"
+      title="Sudoku Mini gameplay" allowfullscreen loading="lazy"></iframe>
+  </div>
+
+  <h2>Features</h2>
+  <ul>
+    <li>4x4 quick boards to classic 9x9, four difficulty levels</li>
+    <li>Daily Puzzle — one board a day, build your streak</li>
+    <li>Home screen widget, notes, undo, automatic note clean-up</li>
+    <li>Dark mode, 14 languages, works offline</li>
+    <li>No sign-up. Open and play.</li>
+  </ul>
+
+  <h2>Get the game</h2>
+  <p>
+    <a class="cta" href="https://play.google.com/apps/testing/com.lilq.sudoku_mini">Join the Android beta</a>
+    <span class="cta secondary">iOS — coming soon</span>
+  </p>
+  <p class="note">The Android version is in closed beta. To join, email your
+  Google account address to <a href="mailto:rhdwpghl@gmail.com">rhdwpghl@gmail.com</a>
+  — we'll add you to the tester list, then the button above unlocks the download.</p>
+
+  <footer>
+    <a href="./privacy.html">Privacy Policy</a> · © 2026 lil_q Game Lab
+  </footer>
+</main>
+</body>
+</html>
