@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — Block Mini</title>
+<title>Privacy Policy — Block Mini - Homo-tus</title>
 <style>
   :root {
     --bg: #ffffff; --fg: #1b2430; --muted: #5b6675;
@@ -60,7 +60,7 @@
 
 <header>
   <h1>Privacy Policy</h1>
-  <p class="meta">Block Mini · Effective 26 September 2026</p>
+  <p class="meta">Block Mini - Homo-tus · Developer: hyeple · Updated 23 October 2026</p>
   <p class="lang"><a href="#en">English</a><a href="#ko">한국어</a></p>
 </header>
 
@@ -68,17 +68,22 @@
 <h2 id="en">English</h2>
 
 <div class="card">
-  <strong>The short version.</strong> Block Mini has no accounts and no login.
-  Your games, settings and civilization progress stay on your device. The app
+  <strong>The short version.</strong> Block Mini - Homo-tus has no accounts and no login.
+  Your games and settings stay on your device; your civilization progress is
+  also kept in an anonymous cloud record so it can sync with our other games. The app
   shows optional reward ads through Google AdMob. Nothing is ever sold.
 </div>
 
 <h3>1. Who we are</h3>
 <p>
-  Block Mini ("the app") is an independently developed mobile game. For any
-  question about this policy, write to
-  <a href="mailto:rhdwpghl@gmail.com">rhdwpghl@gmail.com</a>.
+  This policy applies to <strong>Block Mini - Homo-tus</strong> ("the app"), a mobile
+  game made by an individual developer under the lil_q Game Lab label.
 </p>
+<ul>
+  <li>Google Play: developer <strong>hyeple</strong>, package <code>com.lilq.block_mini</code></li>
+  <li>Apple App Store: seller <strong>SEOKGYUN IM</strong>, app ID 6816613436</li>
+  <li>Contact: <a href="mailto:rhdwpghl@gmail.com">rhdwpghl@gmail.com</a></li>
+</ul>
 
 <h3>2. Data stored on your device only</h3>
 <p>
@@ -117,11 +122,20 @@
   <li><strong>iOS:</strong> Settings → Privacy &amp; Security → Tracking</li>
 </ul>
 
-<h3>4. No analytics, no tracking by us</h3>
+<h3>4. Civilization cloud sync — Google Firebase (no analytics)</h3>
 <p>
-  The app itself sends us nothing. There is no analytics SDK operated by the
-  developer, no crash reporting tied to your identity, and no server of ours
-  that receives your data.
+  The app has no analytics SDK and no crash reporting tied to your identity.
+  The only data it sends to a service we use is your Homo-tus civilization, so
+  it can be shared with our other games (Sudoku Homo-tus, Last Rail) and your
+  other devices: the app signs in to Google Firebase Authentication
+  <strong>anonymously</strong> (no name, e-mail or phone number) and stores your
+  era, buildings and coin balance in Google Cloud Firestore under a random ID.
+  A link code shown in the app is the only way to connect another game or
+  device to that record. Offline, nothing is sent.
+</p>
+<p>
+  To have this record deleted, e-mail us your link code and we will delete it
+  within 30 days.
 </p>
 
 <h3>5. Children</h3>
@@ -159,17 +173,22 @@
 <h2 id="ko">한국어</h2>
 
 <div class="card">
-  <strong>요약.</strong> 블록 미니는 회원가입도 로그인도 없습니다. 게임 기록과
-  설정, 문명 진행 상황은 기기 안에만 저장됩니다. 앱은 Google AdMob 을 통해
+  <strong>요약.</strong> 블록미니 호모투스는 회원가입도 로그인도 없습니다. 게임 기록과
+  설정은 기기 안에만 저장되고, 문명 진행 상황은 다른 게임과 이어지도록 익명 클라우드
+  기록에도 저장됩니다. 앱은 Google AdMob 을 통해
   선택형 보상 광고만 표시합니다. 어떤 정보도 판매하지 않습니다.
 </div>
 
 <h3>1. 운영자</h3>
 <p>
-  블록 미니(이하 "앱")는 개인 개발자가 만든 모바일 게임입니다. 이 방침에 대한
-  문의는 <a href="mailto:rhdwpghl@gmail.com">rhdwpghl@gmail.com</a> 으로
-  보내주세요.
+  이 방침은 <strong>블록미니 호모투스(Block Mini - Homo-tus)</strong>(이하 "앱")에
+  적용됩니다. 앱은 개인 개발자가 lil_q Game Lab 이라는 이름으로 만든 모바일 게임입니다.
 </p>
+<ul>
+  <li>Google Play: 개발자 <strong>hyeple</strong>, 패키지 <code>com.lilq.block_mini</code></li>
+  <li>Apple App Store: 판매자 <strong>SEOKGYUN IM</strong>, 앱 ID 6816613436</li>
+  <li>문의: <a href="mailto:rhdwpghl@gmail.com">rhdwpghl@gmail.com</a></li>
+</ul>
 
 <h3>2. 기기에만 저장되는 정보</h3>
 <p>
@@ -207,10 +226,17 @@
   <li><strong>iOS:</strong> 설정 → 개인정보 보호 및 보안 → 추적</li>
 </ul>
 
-<h3>4. 분석·추적 없음</h3>
+<h3>4. 문명 클라우드 동기화 — Google Firebase (분석 없음)</h3>
 <p>
-  앱은 개발자에게 아무것도 전송하지 않습니다. 개발자가 운영하는 분석 SDK 도,
-  이용자를 식별하는 오류 보고도, 이용자 데이터를 받는 서버도 없습니다.
+  앱에는 분석 SDK 도, 이용자를 식별하는 오류 보고도 없습니다. 외부로 보내는 것은
+  같은 개발자의 다른 게임(스도쿠 호모투스, Last Rail)·다른 기기와 이어 키우기 위한
+  호모투스 문명뿐입니다. 앱은 Google Firebase 인증에 <strong>익명으로</strong>(이름·이메일·
+  전화번호 없이) 로그인하고 시대·건물·코인을 임의의 ID 로 Google Cloud Firestore 에
+  저장합니다. 다른 게임이나 기기를 연결하는 방법은 앱에 표시되는 연결 코드뿐이며,
+  오프라인이면 아무것도 전송되지 않습니다.
+</p>
+<p>
+  이 기록의 삭제를 원하시면 연결 코드를 이메일로 보내주세요. 30일 이내에 삭제합니다.
 </p>
 
 <h3>5. 아동</h3>
@@ -241,7 +267,7 @@
   방침이 중요하게 바뀌면 새 시행일과 함께 이 페이지에 게시합니다.
 </p>
 
-<footer>Block Mini · <a href="mailto:rhdwpghl@gmail.com">rhdwpghl@gmail.com</a></footer>
+<footer>Block Mini - Homo-tus (com.lilq.block_mini) · Developer: hyeple · lil_q Game Lab · <a href="mailto:rhdwpghl@gmail.com">rhdwpghl@gmail.com</a></footer>
 
 </main>
 </body>
