@@ -149,19 +149,28 @@
   Collection stops immediately.
 </p>
 
-<h3>5. Civilization cloud sync — Google Firebase</h3>
+<h3 id="account">5. Homo-tus account and cloud sync — Google Firebase</h3>
 <p>
-  The village you build ("Homo-tus civilization") can be shared with our other
-  games (Block Mini, Last Rail) and your other devices. For this the app signs in
-  to Google Firebase Authentication <strong>anonymously</strong> (no name, e-mail
-  or phone number) and stores your civilization progress — era, buildings and
-  coin balance — in Google Cloud Firestore under a random ID. A link code shown
-  in the app is the only way to connect another game or device to that record.
-  If you are offline, nothing is sent and the game keeps working locally.
+  The game works without an account: if you do not sign in, your
+  civilization stays on your device and nothing is sent. If you choose to sign in
+  with Apple or Google, your village grows as one across our other games
+  (Block Mini, Last Rail) and your devices. For this the app uses Google Firebase Authentication,
+  which receives an account identifier from Apple or Google (plus your e-mail
+  address if you sign in with Google; we do not ask Apple for your name or e-mail),
+  and stores your era, buildings and coins in Google Cloud Firestore under your
+  account ID. Offline, nothing is sent.
 </p>
 <p>
-  To have this record deleted, e-mail us your link code and we will delete it
-  within 30 days.
+  Copies of the app that were linked with a link code in an earlier version keep
+  their record under a random ID, with an anonymous sign-in, until you sign in.
+</p>
+<p>
+  <strong>Deleting your account:</strong> in the village tap the cloud icon, or go
+  to Settings &rarr; Homo-tus account, and choose Delete account. Your account and
+  cloud civilization are deleted right away; the village on this device stays until
+  you uninstall the app. You can also ask us at
+  <a href="mailto:rhdwpghl@gmail.com">rhdwpghl@gmail.com</a> (send your account
+  e-mail, or the link code of an older record) and we will delete it within 30 days.
 </p>
 
 <h3>6. Purchases</h3>
@@ -183,12 +192,13 @@
   Depending on where you live (for example under the GDPR in the European
   Economic Area or the CCPA in California) you may have the right to access,
   correct, delete, or restrict processing of your personal data, and to object
-  to it. Because the app holds no account and stores your game data only on your
-  device, you can exercise most of these rights directly:
+  to it. The app does not require an account and, unless you sign in, stores your
+  game data only on your device, so you can exercise most of these rights directly:
 </p>
 <ul>
   <li>Turn off analytics in Settings</li>
   <li>Reset or delete your advertising ID in your device settings</li>
+  <li>Delete your Homo-tus account in the app (section 5)</li>
   <li>Uninstall the app to delete all locally stored data</li>
 </ul>
 <p>
@@ -280,17 +290,24 @@
   <em>설정 → 개인정보 → 익명 사용 통계 공유</em> 를 끄면 수집이 즉시 중단됩니다.
 </p>
 
-<h3>5. 문명 클라우드 동기화 — Google Firebase</h3>
+<h3 id="account-ko">5. 호모투스 계정과 클라우드 동기화 — Google Firebase</h3>
 <p>
-  앱에서 키우는 마을(호모투스 문명)은 같은 개발자의 다른 게임(블록미니, Last Rail)과
-  다른 기기에서 이어서 키울 수 있습니다. 이를 위해 앱은 Google Firebase 인증에
-  <strong>익명으로</strong>(이름·이메일·전화번호 없이) 로그인하고, 문명 진행도(시대·건물·코인)를
-  임의의 ID 로 Google Cloud Firestore 에 저장합니다. 다른 게임이나 기기를 연결하는
-  방법은 앱에 표시되는 연결 코드뿐입니다. 오프라인이면 아무것도 전송되지 않고
-  기기 안에서만 동작합니다.
+  게임은 계정 없이 할 수 있습니다. 로그인하지 않으면 문명은 기기에만 저장되고
+  아무것도 전송되지 않습니다. Apple 또는 Google 로 로그인을 선택하면 같은 개발자의 다른
+  게임(블록미니, Last Rail)과 다른 기기에서 마을이 하나로 자랍니다. 이를 위해 앱은 Google Firebase
+  인증을 사용하며, Apple·Google 이 주는 계정 식별자(Google 로 로그인하면 이메일 주소 포함.
+  Apple 에는 이름·이메일을 요청하지 않습니다)를 받고, 시대·건물·코인을 계정 ID 로
+  Google Cloud Firestore 에 저장합니다. 오프라인이면 아무것도 전송되지 않습니다.
 </p>
 <p>
-  이 기록의 삭제를 원하시면 연결 코드를 이메일로 보내주세요. 30일 이내에 삭제합니다.
+  이전 버전에서 연결 코드로 연결한 앱은 로그인하기 전까지 임의의 ID 와 익명 로그인으로
+  기록을 유지합니다.
+</p>
+<p>
+  <strong>계정 삭제:</strong> 마을의 구름 아이콘이나 설정 &rarr; 호모투스 계정에서 계정 삭제를
+  누르면 계정과 클라우드 문명이 바로 지워집니다. 이 기기의 마을은 앱을 지울 때까지 남습니다.
+  <a href="mailto:rhdwpghl@gmail.com">rhdwpghl@gmail.com</a> 으로 요청하셔도 됩니다(계정
+  이메일이나 예전 기록의 연결 코드를 보내 주세요). 30일 이내에 삭제합니다.
 </p>
 
 <h3>6. 결제</h3>
